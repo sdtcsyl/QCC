@@ -11,3 +11,5 @@ Step 3, save excel files in the Folder Source (do not change the excel's name. I
 Step 4, log in the QiChaCha and update the cookie in the QCC.py;
 
 Step 5, start to run the main.py.
+
+The project is not allowed to imfringe laws and any actions must be within the scope of the law.
