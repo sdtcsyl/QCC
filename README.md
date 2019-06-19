@@ -12,4 +12,4 @@ Step 4, log in the QiChaCha and update the cookie in the QCC.py;
 
 Step 5, start to run the main.py.
 
-The project is not allowed to imfringe laws and any actions must be within the scope of the law.
+The project is not allowed to imfringe laws and any actions must be within the scope of the law. Please refer to the robots.txt in https://www.qichacha.com/robots.txt.
