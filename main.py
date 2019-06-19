@@ -22,7 +22,7 @@ url = qcc.url
 header = qcc.header
 cookie = qcc.cookie
 
-xl = pd.read_excel(Files.source_path  + '20190504GridDisLatLng.xlsx',sheet_name='Sheet1',header=0)
+xl = pd.read_excel(Files.source_path  + '20190504GridDisLatLng.xlsx',sheet_name='Sheet1',header=0)  #please amend the file name if change the file name
 
 for i in range(len(xl)):
     xl_data = tuple(xl.loc[i,:])
