@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun May  5 17:02:05 2019
+
+@author: e0306210
 """
 
 
@@ -168,7 +170,7 @@ def sqlselect(table, **args):
                            page varchar(2),
                            NY varcar(2)
                        )''') 
-        cursor.execute('SELECT * FROM table_' + table + ' WHERE NY = 0')    
+        cursor.execute('SELECT * FROM table_' + table + ' WHERE NY = 2')    
     res =cursor.fetchall()
     suc = res
     cursor.close()
@@ -260,3 +262,12 @@ def sqlcheck(dl, table):
     return suc      
 
 
+def sqloutput(table):
+    conn = sqlite3.connect(Files.db_path + 'QCC.db')
+    cursor = conn.cursor()
+    cursor.execute('select * from table_'+table)
+    res =cursor.fetchall()
+    cursor.close()
+    conn.commit()
+    conn.close()
+    return res
